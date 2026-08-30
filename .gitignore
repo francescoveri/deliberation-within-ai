@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Environment / secrets
+.Renviron
+.env
+.env.*
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / generated files
+*.tmp
+~$*
