@@ -69,10 +69,17 @@ install.packages(c(
 ))
 ```
 
-The scripts also make optional use of:
 
 ```r
-install.packages(c("pdftools", "rmarkdown"))
+install.packages(c(
+  "readxl",
+  "dplyr",
+  "tidyr",
+  "purrr",
+  "tibble",
+  "sandwich",
+  "lmtest"
+))
 ```
 
 `grid` and `tools` are distributed with R.
