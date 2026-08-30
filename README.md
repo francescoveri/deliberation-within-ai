@@ -14,7 +14,7 @@ The repository provides the code used to generate the structured and direct mult
 ├── README.md
 ├── app_structured_pipeline_batch.R
 ├── app_direct_deliberation_batch.R
-├── reviewer_robustness_v4.R
+├── robustness_test_LLM_ai_within.R
 ├── data_new_group.xlsx
 ├── dataPnew_individual.xlsx
 └── outputs/
