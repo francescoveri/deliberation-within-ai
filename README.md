@@ -166,13 +166,6 @@ The replication objective is therefore to reproduce the **documented simulation 
 
 For a publication archive, the exact model identifier, model provider, temperature, date of data generation, number of runs, and any other relevant inference settings used for the reported analyses should be recorded here or in a separate `REPLICATION_NOTES.md` file.
 
-## Live application
-
-An interactive version of the deliberation simulator is available at:
-
-**[ADD SHINYAPPS.IO URL]**
-
-The live application is provided for demonstration and exploration. The files in this repository constitute the versioned research code used for replication.
 
 ## Suggested citation
 
