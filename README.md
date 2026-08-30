@@ -130,21 +130,7 @@ Again, `run_id` identifies each replication.
 
 ## Reproducing the robustness analyses
 
-The robustness script currently contains:
-
-```r
-INSPECT_ONLY <- TRUE
-```
-
-The first run is therefore diagnostic: it prints the structure of the two input datasets and stops.
-
-After confirming that the column mapping in the script matches the deposited data, change this to:
-
-```r
-INSPECT_ONLY <- FALSE
-```
-
-and run:
+The robustness script run:
 
 ```r
 source("robustness_test_LLM_ai_within.R")
