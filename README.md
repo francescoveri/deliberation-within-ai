@@ -18,9 +18,19 @@ The repository provides the code used to generate the structured and direct mult
 ├── data_new_group.xlsx
 ├── dataPnew_individual.xlsx
 └── outputs/
-    ├── supp_table_inference.csv
-    ├── robustness_full_results.csv
-    └── descriptives_by_condition.csv
+    ├── G1_run_level_welch_tests.csv
+    ├── G2_dri_paired_pre_post_tests.csv
+    ├── G3_pooled_ideology_correlations.csv
+    ├── G4_run_level_ideology_correlations.csv
+    ├── G5_fisher_z_between_condition.csv
+    ├── G6_1_ancova_hc3.csv
+    ├── G6_2_baseline_dri_by_condition.csv
+    ├── G7_assumption_free_and_holm.csv
+    ├── G8_1_common_support.csv
+    ├── G8_2_length_aqua_spearman.csv
+    ├── G8_3_length_adjusted_models.csv
+    └── S4_2_1_stability_statistics.csv
+
 ```
 
 ### Main scripts
@@ -151,6 +161,21 @@ The script writes three output files:
 
 For the final archived replication release, it is preferable to deposit a version in which the mapping has already been checked and `INSPECT_ONLY <- FALSE`, so that the analysis runs without manual editing.
 
+## Configuration used in the reported experiment
+
+The deposited batch experiment consists of 20 runs: 10 structured-pipeline runs and 10 direct-deliberation runs. All runs used openai/gpt-5.4-mini with temperature = 0 and 10 simulated participants. The structured condition used two deliberative groups, while the direct condition used a single group.
+
+Uploaded instructions: Climate and Innovation Act
+Should Swiss people adopt the Climate and Innovation Act?
+
+On the June the Swiss electorate will vote on the Federal Act on Climate Protection Targets, In-novation and Strengthening Energy Security (indirect counter-proposal to the Glacier Initiative).
+
+10 participants
+Defaults socio-demographic
+
+Switzerland imports around three quarters of its energy. All the mineral oil and natural gas con-sumed in Switzerland comes from abroad. These fossil fuels will not be available indefinitely and they place a heavy burden on the climate. In order to reduce environmental pollution and de-pendence on other countries, the Federal Council and Parliament want to reduce the consump-tion of oil and gas. At the same time, the aim is to produce more energy in Switzerland.
+In terms of the bill, Switzerland will gradually reduce its consumption of mineral oil and natural gas. The goal is for Switzerland to become climate neutral by 2050. The bill introduces measures to reduce energy consumption. Those who replace their oil, gas or electric heating will receive financial assistance. In addition, companies that invest in climate-friendly technologies will be supported. The bill is an indirect counter-proposal to the Glacier Initiative. Unlike that initiative, it does not aim to ban fossil fuels such as petrol, diesel, heating oil and gas. A referendum has been called against the bill.
+
 ## Reproducibility note
 
 The simulation applications record model choice, temperature, participant/group configuration, and run identifiers. However, exact textual reproduction of LLM outputs should not be expected. Model APIs are stochastic and provider-side model versions may change over time.
@@ -179,9 +204,6 @@ For the version associated with the published article:
 
 This preserves the exact replication package even if the GitHub repository is later updated.
 
-## License
-
-Add an explicit license before publication. For code, a permissive license such as **MIT** is commonly used. Data may require a separate license depending on its provenance and sharing conditions.
 
 ## Contact
 
@@ -190,7 +212,6 @@ University of Zurich
 [francesco.veri@zda.uzh.ch]
 
 ## funding
-This pubblication sustained by RIA Horizon project AI4Deliberation
-Grant agreement ID: 101178806
+This work was supported by the Horizon Europe RIA project AI4Deliberation (Grant Agreement No. 101178806).
 https://cordis.europa.eu/project/id/101178806
 https://www.ai4dproject.eu/
