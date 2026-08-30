@@ -17,6 +17,8 @@ The repository provides the code used to generate the structured and direct mult
 ├── robustness_test_LLM_ai_within.R
 ├── data_new_group.xlsx
 ├── dataPnew_individual.xlsx
+├──  dri_survey_climate.xlsx
+├── Swiss_innovation_act.pdf
 └── outputs/
     ├── G1_run_level_welch_tests.csv
     ├── G2_dri_paired_pre_post_tests.csv
@@ -175,6 +177,9 @@ Defaults socio-demographic
 
 Switzerland imports around three quarters of its energy. All the mineral oil and natural gas con-sumed in Switzerland comes from abroad. These fossil fuels will not be available indefinitely and they place a heavy burden on the climate. In order to reduce environmental pollution and de-pendence on other countries, the Federal Council and Parliament want to reduce the consump-tion of oil and gas. At the same time, the aim is to produce more energy in Switzerland.
 In terms of the bill, Switzerland will gradually reduce its consumption of mineral oil and natural gas. The goal is for Switzerland to become climate neutral by 2050. The bill introduces measures to reduce energy consumption. Those who replace their oil, gas or electric heating will receive financial assistance. In addition, companies that invest in climate-friendly technologies will be supported. The bill is an indirect counter-proposal to the Glacier Initiative. Unlike that initiative, it does not aim to ban fossil fuels such as petrol, diesel, heating oil and gas. A referendum has been called against the bill.
+
+Upload files: Swiss_innovation_act.pdf
+              dri_survey_climate..xlsx
 
 ## Reproducibility note
 
