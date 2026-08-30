@@ -19,6 +19,9 @@ The repository provides the code used to generate the structured and direct mult
 ├── dataPnew_individual.xlsx
 ├──  dri_survey_climate.xlsx
 ├── Swiss_innovation_act.pdf
+├── 1_CIR_report_demoscan.pdf
+├── Supplementary_Materials.pdf
+├── deliberation_report_mini_LLM.pdf
 └── outputs/
     ├── G1_run_level_welch_tests.csv
     ├── G2_dri_paired_pre_post_tests.csv
