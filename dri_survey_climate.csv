@@ -1,0 +1,40 @@
+section,id,text,theme,direction
+consideration,C01,Climate change is natural; there is no need to worry.,Beliefs about climate change,con
+consideration,C02,It is certain to say that climate change exists.,Beliefs about climate change,pro
+consideration,C03,Climate change is primarily caused by human activity.,Beliefs about climate change,pro
+consideration,C04,It is difficult to trust scientists' reports on climate change.,Trust in information sources,con
+consideration,C05,It is difficult to trust government reports on climate change.,Trust in information sources,con
+consideration,C06,It is difficult to trust what the media report about climate change.,Trust in information sources,con
+consideration,C07,There is not enough information to conclusively say that climate change is real.,Beliefs about climate change,con
+consideration,C08,It doesn't make much sense for me to do anything to solve the problem. No one else is doing anything.,Individual agency,con
+consideration,C09,I don't know what to do. I am very worried and would like to do something but I don't have a realistic set of actions that would truly make a difference.,Individual agency,con
+consideration,C10,Doing something to reduce emissions seems a bit hopeless to me but I just want to feel like I'm doing my best.,Individual agency,con
+consideration,C11,I believe that the impact we can achieve as individuals in Switzerland is so small that our actions are useless.,Individual agency,con
+consideration,C12,I'm not going to do anything about climate change because it's not an important issue.,Individual agency,con
+consideration,C13,Authorities should receive additional funding to strengthen measures against emergencies and weather-related disasters such as floods.,Adaptation and resilience,pro
+consideration,C14,We need to take into account the negative effects of climate change on local businesses.,Adaptation and resilience,pro
+consideration,C15,Authorities have the resources they need to effectively adapt to climate change.,Adaptation and resilience,neutral
+consideration,C16,The urban heat island effect must be tackled with measures such as planting trees.,Adaptation and resilience,pro
+consideration,C17,Health systems must prepare for both the physical health impacts of climate change (e.g. heat stroke) and the mental health impacts (e.g. farmers losing their crops).,Adaptation and resilience,pro
+consideration,C18,It is necessary to have strong on-the-ground disaster response capabilities to deal with extreme weather conditions.,Adaptation and resilience,pro
+consideration,C19,Even if Switzerland were to reduce all its CO2 emissions global warming would continue.,Mitigation,con
+consideration,C20,The melting of Alpine glaciers is not a real problem for our daily lives.,Beliefs about climate change,con
+consideration,C21,It is important to focus on adaptation measures that take into account the country's economic future.,Adaptation and resilience,pro
+consideration,C22,Rising insurance costs are a serious problem related to climate change.,Adaptation and resilience,pro
+consideration,C23,Switzerland is particularly vulnerable to climate change and it is in our interest to contribute to an effective global solution.,Mitigation,pro
+consideration,C24,It is important to prepare for the migration of people displaced by the effects of climate change.,Adaptation and resilience,pro
+consideration,C25,We should focus on protecting human systems rather than protecting ecosystems.,Adaptation and resilience,neutral
+consideration,C26,Society should be included in the discussion on climate change adaptation.,Governance,pro
+consideration,C27,Some countries or regions of the world will be more affected by climate change than others but this is not our top priority.,Adaptation and resilience,con
+consideration,C28,The planning of measures to tackle climate change should focus primarily on extreme weather events such as droughts and floods.,Adaptation and resilience,neutral
+consideration,C29,It is NOT necessary to involve society in deciding which key issues are important for climate change adaptation planning.,Governance,con
+consideration,C30,Planning climate change response measures requires a global approach that considers a wide range of interventions rather than specific individual actions.,Mitigation,pro
+consideration,C31,There is no urgent need to prepare for an increase in illnesses and deaths caused by high temperatures.,Adaptation and resilience,con
+consideration,C32,It is important to support vulnerable groups (the elderly children people with disabilities low-income individuals) as they have fewer resources to deal with the impacts of climate change.,Adaptation and resilience,pro
+policy_option,P1,Leave the policy settings as they are.,,
+policy_option,P2,Policies that emphasise economic growth over climate change adaptation or mitigation.,,
+policy_option,P3,Policies that involve a moderate reduction in CO2 emissions (e.g. reducing emissions by 25% to 50% over the next 10 years).,,
+policy_option,P4,Policies that involve a radical reduction in CO2 emissions (e.g. reducing emissions by 50% to 100% over the next 10 years).,,
+policy_option,P5,Adaptation policies and expenditure. Planning controls and emergency response programs.,,
+policy_option,P6,Adaptation policies that target individual small business or community-based actions (e.g. support the installation of alternative energy generators insulation water use efficiency).,,
+policy_option,P7,Preparing for climate risk through the development of new approaches and technologies that enhance resilience to the impacts of climate variability or change.,,
