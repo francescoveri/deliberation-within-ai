@@ -31,7 +31,7 @@ The repository provides the code used to generate the structured and direct mult
 - **`app_direct_deliberation_batch.R`**  
   Runs the direct-deliberation comparison condition. The batch mode generates the corresponding individual-level and group-level datasets without the intermediate structured deliberative stages.
 
-- **`reviewer_robustness_v4.R`**  
+- **`robustness_test_LLM_ai_within.R`**  
   Reproduces the main robustness analyses used in the final manuscript, including:
   - baseline-adjusted DRI analyses;
   - checks for deliberation-length confounding;
@@ -83,7 +83,7 @@ install.packages(c("pdftools", "rmarkdown"))
 install.packages("readxl")
 ```
 
-The HC3 covariance estimator, permutation tests, bootstrap routines, and effect-size calculations used in `reviewer_robustness_v4.R` are implemented directly in the script.
+The HC3 covariance estimator, permutation tests, bootstrap routines, and effect-size calculations used in `robustness_test_LLM_ai_within.R` are implemented directly in the script.
 
 ## OpenRouter API
 
@@ -147,7 +147,7 @@ INSPECT_ONLY <- FALSE
 and run:
 
 ```r
-source("reviewer_robustness_v4.R")
+source("robustness_test_LLM_ai_within.R")
 ```
 
 The script writes three output files:
